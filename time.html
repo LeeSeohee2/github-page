@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>✨ Automation Timer ✨</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #f1f3f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .circle-box {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+    }
+    .circle-box h3 {
+      margin: 0;
+    }
+    .status {
+      font-size: 28px;
+      margin: 10px 0;
+    }
+    .time {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+    .date {
+      font-size: 14px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="circle-box">
+    <h3>✨Automation Timer✨</h3>
+    <p id="day" style="color: #666;">오늘은 </p>
+    <div class="status" id="status"></div>
+    <p class="time" id="clock"></p>
+    <p class="date" id="date"></p>
+  </div>
+
+  <script>
+    const days = ["일요일", "월요일", "화요일", "수요일", "목요일", "금요일", "토요일"];
+
+    function pad(num) {
+      return String(num).padStart(2, '0');
+    }
+
+    function updateClock() {
+      const now = new Date();
+      const hours = pad(now.getHours());
+      const minutes = pad(now.getMinutes());
+      const seconds = pad(now.getSeconds());
+
+      const timeStr = `${hours}:${minutes}:${seconds}`;
+      const dayName = days[now.getDay()];
+      const currentDate = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`;
+
+      const isStudyTime = now.getMinutes() < 50;
+      const status = isStudyTime ? "💻 Study Time" : "🔥 Break Time";
+
+      document.getElementById("day").innerText = `오늘은 ${dayName}`;
+      document.getElementById("status").innerText = status;
+      document.getElementById("clock").innerText = `🕒 ${timeStr}`;
+      document.getElementById("date").innerText = currentDate;
+    }
+
+    setInterval(updateClock, 1000);
+    updateClock(); // 처음 한 번 즉시 실행
+  </script>
+
+</body>
+</html>
