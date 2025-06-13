@@ -1,0 +1,122 @@
+[
+  {
+    "name": "[신의주 찹쌀순대] 순대국 2종",
+    "description": "찰쌀/얼큰",
+    "discount": "20%",
+    "price": "5,760원",
+    "original_price": "7,200원",
+    "coupon": false,
+    "comments": "9,999+",
+    "image": "https://product-image.kurly.com/hdims/resize/.../image/72a9e25d-53a0-4612-9da7-c2fd10926a08.jpg"
+  },
+  {
+    "name": "[KF365] 수입산 소고기 & 돼지고기 냉장 가성비 구이류 골라담기",
+    "description": "최대혜택가",
+    "discount": "30%",
+    "price": "6,643원~",
+    "original_price": "9,490원",
+    "coupon": true,
+    "comments": "999+",
+    "image": "https://product-image.kurly.com/hdims/resize/.../image/8624eb83-eb47-40fe-966e-b5156498a12b.jpg"
+  },
+  {
+    "name": "[제스프리] 뉴질랜드 골드키위 1.1kg (8~10입)",
+    "description": "후숙필요",
+    "discount": "18%",
+    "price": "12,900원",
+    "original_price": "15,900원",
+    "coupon": true,
+    "comments": "장보기 특가",
+    "image": "https://img-cf.kurly.com/hdims/resize/.../1650348343574l0.jpg"
+  },
+  {
+    "name": "[아우어베이커리] 오리지널 치아바타 (2개입)",
+    "description": "",
+    "discount": "10%",
+    "price": "7,110원",
+    "original_price": "7,900원",
+    "coupon": false,
+    "comments": "999+",
+    "image": "https://product-image.kurly.com/hdims/resize/.../image/73c5e3df-aff2-4dc8-bc39-4d73edd9d239.jpg"
+  },
+  {
+    "name": "[켈로그] 프로틴 그래놀라 제로슈거 350g",
+    "description": "",
+    "discount": "29%",
+    "price": "6,780원",
+    "original_price": "9,580원",
+    "coupon": false,
+    "comments": "187",
+    "image": "https://product-image.kurly.com/hdims/resize/.../image/9de77af7-cb5c-4c4a-ac31-46beac1b5579.jpg"
+  },
+  {
+    "name": "[당심] 바나바잎 여주 돼지감자차 500ml 2종",
+    "description": "",
+    "discount": "15%",
+    "price": "2,040원~",
+    "original_price": "2,400원",
+    "coupon": false,
+    "comments": "231",
+    "image": "https://product-image.kurly.com/hdims/resize/.../image/8cc5f3f6-e049-4a4c-a480-185b8c31d785.jpg"
+  },
+  {
+    "name": "[애플하우스] 즉석 떡볶이",
+    "description": "",
+    "discount": "27%",
+    "price": "7,957원",
+    "original_price": "10,900원",
+    "coupon": false,
+    "comments": "999+",
+    "image": "https://product-image.kurly.com/hdims/resize/.../image/891de406-834f-4c33-8a8c-0c280ffbf58f.jpg"
+  },
+  {
+    "name": "[오봉집] 인기 메뉴 6종 (택1)",
+    "description": "",
+    "discount": "",
+    "price": "7,990원~",
+    "original_price": "",
+    "coupon": false,
+    "comments": "999+",
+    "image": "https://product-image.kurly.com/hdims/resize/.../image/3e1c6a1f-4a78-44b1-973f-c6a5b3c944ba.jpg"
+  },
+  {
+    "name": "[KF365] 햇 양파 1.8kg",
+    "description": "",
+    "discount": "30%",
+    "price": "3,490원",
+    "original_price": "4,990원",
+    "coupon": true,
+    "comments": "9,999+",
+    "image": "https://product-image.kurly.com/hdims/resize/.../image/51661071-1ce4-4f8c-9c2c-626dbcb43b23.jpg"
+  },
+  {
+    "name": "[갓지은] 국내산 서리태 콩찰떡 500g",
+    "description": "",
+    "discount": "15%",
+    "price": "10,965원",
+    "original_price": "12,900원",
+    "coupon": true,
+    "comments": "724",
+    "image": "https://product-image.kurly.com/hdims/resize/.../image/1e117588-72c3-4459-b633-f031ca06ebfc.jpg"
+  },
+  {
+    "name": "[안단잼] 저당 망고 스프레드 200g",
+    "description": "",
+    "discount": "17%",
+    "price": "7,360원",
+    "original_price": "8,900원",
+    "coupon": false,
+    "comments": "30",
+    "image": "https://product-image.kurly.com/hdims/resize/.../image/db41ccdc-847c-4440-8f43-c6227ea445c3.jpg"
+  },
+  {
+    "name": "[볼비] 두유 그릭요거트 클래식 450g",
+    "description": "",
+    "discount": "17%",
+    "price": "9,880원",
+    "original_price": "12,000원",
+    "coupon": true,
+    "comments": "999+",
+    "image": "https://product-image.kurly.com/hdims/resize/.../image/bd98c49f-3231-4c99-a8c9-6d10f487a1d8.jpg"
+  }
+]
